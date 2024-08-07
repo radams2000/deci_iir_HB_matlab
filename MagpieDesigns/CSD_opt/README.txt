@@ -1,0 +1,1 @@
+csdigit.m will take in a fixed-point coefficient and convert to canonical sign-digit form, which gives the minimum number of shift-and-adds (or subtracts) to represet the coefficient to a gven procesion. This can be used to avoid full multiplication (speed advantage) as long as the number of shift-and-adds is 2 or 3.
